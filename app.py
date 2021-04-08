@@ -13,6 +13,7 @@ def sms_reply():
 
     resp = MessagingResponse()
     resp.message("Hi, I am friday personal assistant of Somanyu. Your message: *{}*".format(msg))
+    resp.message("Your message will be conveyed to him")
 
     return str(resp)
 
