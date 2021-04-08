@@ -13,7 +13,7 @@ def sms_reply():
 
     resp = MessagingResponse()
 
-    if(msg == "Hii" or "hii"):
+    if(msg == "Hii"):
         resp.message("Hi, I am *Proton* personal assistant of Somanyu. Your message: *{}*".format(msg))
         resp.message("I will convey your message ASAP!")
         resp.message("Anything else you want to say to Somanyu?")
