@@ -12,7 +12,7 @@ def sms_reply():
     msg = request.form.get('Body')
 
     resp = MessagingResponse()
-    resp.message("You said: {}".format(msg))
+    resp.message("Hi, I am friday personal assitant of Somanyu. Your message :{}".format(msg))
 
     return str(resp)
 
