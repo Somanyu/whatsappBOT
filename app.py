@@ -13,7 +13,8 @@ def sms_reply():
 
     resp = MessagingResponse()
     resp.message("Hi, I am friday personal assistant of Somanyu. Your message: *{}*".format(msg))
-    resp.message("Your message will be conveyed to him")
+    if (msg == "How are you??"):
+        resp.message("Somanyu is doing good. He might know how are you doing?")
 
     return str(resp)
 
