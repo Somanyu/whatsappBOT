@@ -14,8 +14,10 @@ def sms_reply():
     resp = MessagingResponse()
 
     if(msg == "Hii"):
-        resp.message("Hi, I am friday personal assistant of Somanyu. Your message: *{}*".format(msg))
-    elif(msg == "How are you??"):
+        resp.message("Hi, I am *Proton* personal assistant of Somanyu. Your message: *{}*".format(msg))
+        resp.message("I will convey your message ASAP!")
+        resp.message("Anything else you want to say to Somnayu?")
+    elif(msg == "How are you?"):
         resp.message("Somanyu is doing good. He might know how are you doing?")
     elif(msg == "What he is doing now?"):
         resp.message("He is probably doing something incredible *;)*")
