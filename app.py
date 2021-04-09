@@ -14,7 +14,7 @@ def sms_reply():
     resp = MessagingResponse()
 
     if(msg == "Hii"):
-        resp.message("Hi, I am *Proton* personal assistant of Somanyu. Your message: *{}*".format(msg))
+        resp.message("Hi, I am ```Proton``` personal assistant of Somanyu. Your message: *{}*".format(msg))
         resp.message("I will convey your message ASAP!")
         resp.message("Anything else you want to say to Somanyu?")
     elif(msg == "How are you?"):
@@ -27,3 +27,5 @@ def sms_reply():
 
 if __name__ == "__main__":
     app.run(debug=True)
+    # 534.67
+    # -49 
