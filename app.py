@@ -15,6 +15,7 @@ def sms_reply():
 
     if(msg == "Hii" or msg == "hii"):
         resp.message("Hi, I am ```Proton``` personal assistant of Somanyu. Your message: *{}*".format(msg))
+        resp.message("Somanyu will be informed about your text.")
     elif(msg == "How are you?" or msg == "how are you?" or msg == "How are you"):
         resp.message("Somanyu is doing good. He might know how are you doing?")
     elif(msg == "What is he doing now?"):
