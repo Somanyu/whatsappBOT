@@ -1,5 +1,5 @@
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "jokes-ksnx-079d1ebd7468.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "jokes-ksnx-80887e7c446c.json"
 
 import dialogflow_v2 as dialogflow
 dialogflow_session_client = dialogflow.SessionsClient()
