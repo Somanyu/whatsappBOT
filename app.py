@@ -9,6 +9,7 @@ app = Flask(__name__)
 def hello():
     return "Hello, World!"
 
+# Post method for whatsapp bot
 @app.route("/sms", methods=['POST'])
 def sms_reply():
     msg = request.form.get('Body')
